@@ -8,6 +8,7 @@ Table of Contents
 + Synopsis / Introduction
 + Code Example (Screen Shots)
 + Motivation
++ Features
 + Installation
 + Usage
 + (Run) Tests
@@ -56,6 +57,15 @@ evenly heat the house in winter, provide a 'schedule' function for heating,
 and use the fan to help prevent the air in the house from going 'stale'.
 
 
+Features
+--------
+
+ - user-configuraable swing (0.5C)
+ - let furnace run for a minimum time, once switched on (3 min)
+ - scheduled heating setting
+ - run humidifier, based on outside temperature
+
+
 Installation
 ------------
 
@@ -91,8 +101,12 @@ References
 
 ### Similar Projects
 
- - [Makeatronics](http://makeatronics.blogspot.ca) -- possible PCB source
+ - [Makeatronics](http://makeatronics.blogspot.ca) (2013) -- possible PCB source
+     - thermostat code -- <http://makeatronics.blogspot.ca/2013/04/thermostat-software.html>
  - [Rubustat](http://wyattwinters.com/rubustat-the-raspberry-pi-thermostat.html) (2013)
+     - Linux demaon -- <http://www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/> (note seperate download for Python 3) -- alt link <http://blog.jacobean.net/?p=692>
+     - code - <https://github.com/wywin/Rubustat>
+     - improved code - <https://github.com/aneisch/Rubustat>
  - [Nooganeer](http://www.nooganeer.com/his/projects/homeautomation/raspberry-pi-thermostat-part-1-overview/) (2014)
 
 ### Furnace Wiring
